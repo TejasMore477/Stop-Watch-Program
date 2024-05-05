@@ -15,9 +15,9 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 6rem;
     gap: 1rem;
-    background-color: rgba(37, 37, 37, 0.593);
+    background-color: mediumaquamarine;
 }
 
 h1{
@@ -30,7 +30,7 @@ h1{
     align-items: center;
     gap: 1rem;
     border: 4px solid black;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: white;
     padding: 1rem;
 }
@@ -39,6 +39,7 @@ h1{
     font-size: 5rem;
     font-weight: 500;
 }
+
 button{
     padding: 0.5rem 1rem;
     font-weight: 500;
@@ -67,4 +68,19 @@ button{
 }
 #reset:hover{
     background-color: rgba(65, 105, 225, 0.67);
+}
+
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices */
+    h1{
+        font-size: 3rem;
+    }
+    
+    #display{
+        font-size: 3rem;
+    }
+
+    button{
+        padding: 0.5rem 0.8rem;
+    }
 }
